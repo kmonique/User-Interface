@@ -70,12 +70,10 @@ body{
 	margin: auto;
 }
 nav{
-	margin: 20px auto;
 	background-color: black;
-	width: 50%;
 	z-index: 80;
 	position: fixed;
-	top: 0px;
+	top: 20px;
 }
 
 .navi{
@@ -105,13 +103,12 @@ h3{
 	font-size: 18px;
 }
 .logo{
-	position: absolute;
-	top: 35px; right: 240px;
-	z-index: 100;
+	position: relative;
+	top: 35px; left: 680px;
 }
 .logo2{
-	position: absolute;
-	top: 120px; right: 240px;
+	position: relative;
+	bottom: 190px; left: 240px;
 }
 #box1, #box2{
 	display: inline-block;
